@@ -8,8 +8,8 @@ formLogin.addEventListener("submit", function(event) {
     const senha = document.getElementById("senha").value.normalize("NFC").trim();
 
     // Dados de acesso
-    const usuarioCorreto = "nGH#%4@!*&>..usuario";
-    const senhaCorreta = "niGNhhj&%4#29*¨¨5$++senhadicifil";
+    const usuarioCorreto = "usuario";
+    const senhaCorreta = "senhadicifil";
 
     if (usuario === usuarioCorreto && senha === senhaCorreta) {
         window.location.href = "sucesso.html";
