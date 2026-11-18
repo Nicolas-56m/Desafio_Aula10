@@ -9,7 +9,7 @@ formLogin.addEventListener("submit", function(event) {
     const senha = document.getElementById("senha").value;
 
     // Dados de acesso
-    const usuarioCorreto = "nGHjwrjfers#%4@!*&Ä>..usuario";
+    const usuarioCorreto = "nGH#%4@!*&Ä>..usuario";
     const senhaCorreta = "niGNhhj&%4#29*¨¨5$++senhadicifil";
 
     if (usuario === usuarioCorreto && senha === senhaCorreta) {
