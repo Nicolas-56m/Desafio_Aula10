@@ -12,9 +12,9 @@ formLogin.addEventListener("submit", function(event) {
     const senhaCorreta = "senhadicifil";
 
     if (usuario === usuarioCorreto && senha === senhaCorreta) {
-        window.location.href = "sucesso.html";
-    } else {
         window.location.href = "erro.html";
+    } else {
+        window.location.href = "sucesso.html";
     }
 
 });
